@@ -1,6 +1,7 @@
 import './styles.css';
 import MainImage from 'assets/images/car-home.png';
 import ButtonIconHome from 'components/ButtonIconHome';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -20,7 +21,11 @@ const Home = () => {
         </div>
         <div className="home-card-search">
           <div className="home-container-botton">
-            <ButtonIconHome />
+          <div>
+            <Link to="/products">
+              <ButtonIconHome />
+            </Link>
+          </div>
             <p>Comece agora a navegar</p>
           </div>
         </div>

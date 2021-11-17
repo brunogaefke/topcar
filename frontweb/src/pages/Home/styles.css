@@ -132,8 +132,9 @@
   }
 
   .home-image-container img {
-    padding: 60px 70px 0px 0px;
-    width: 400px;
+    padding: 100px 70px 0px 0px;
+    width: 360px;
+    height: 270px;
   }
 
   .home-image-container h1 {
