@@ -1,5 +1,5 @@
 .main-nav {
-  min-height: 70px;
+  height: 70px;
 }
 
 .nav-logo-text,
@@ -8,9 +8,10 @@
 }
 
 .main-menu {
-  display: flex;
+  
   font-size: 18px;
   width: 180px;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -24,4 +25,29 @@
 .main-menu a.active {
   color: #00285f;
   font-weight: bold;
+}
+
+@media (min-width: 576px) {
+
+  .main-nav {
+    padding-left: 50px;
+  }
+
+  .main-menu {
+    font-size: 18px;
+
+}
+
+.nav-logo-text h4 {
+  size: 24px;
+}
+
+}
+
+@media (min-width: 768px) {
+ 
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+}
 }
